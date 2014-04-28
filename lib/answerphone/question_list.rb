@@ -21,7 +21,7 @@ module Answerphone
     end
 
     def delete(question)
-      @questions.delete(question) if @questions[question]
+      @questions.delete(question)
     end
   end
 end

@@ -17,3 +17,6 @@ answerphone.print_questions
 
 answerphone.delete_question("What season?", "weather")
 answerphone.print_questions
+puts "--------------------------"
+answerphone.delete_topic('number')
+answerphone.print_questions

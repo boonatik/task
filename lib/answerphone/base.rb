@@ -28,6 +28,10 @@ module Answerphone
       @topic_list[topic.to_sym].delete(question)
     end
 
+    def delete_topic(topic)
+      @topic_list.delete(topic.to_sym)
+    end
+
     private
 
       def print_all_topics
